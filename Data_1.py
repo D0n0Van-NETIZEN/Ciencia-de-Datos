@@ -5,4 +5,4 @@ names_link = "https://raw.githubusercontent.com/D0n0Van-NETIZEN/Plantas/refs/hea
 names_data = pd.read_csv(names_link)
 
 st.title("streamlit and pandas")
-st.dataframe(name_data)
+st.dataframe(names_data)
