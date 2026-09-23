@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pandas
 
-names_link = "https://raw.githubusercontent.com/adsoftsito/ciencia-datos/refs/heads/main/titanic.csv"
+names_link = "https://raw.githubusercontent.com/D0n0Van-NETIZEN/Plantas/refs/heads/main/titanic%20(3).csv"
 names_data = pd.read_csv(names_link)
 
 st.title("streamlit and pandas")
